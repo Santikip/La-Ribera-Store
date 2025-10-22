@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cafetera",
+        "precio": 1000,
+        "imagen": "img-cafetera-moulinex.jpg",
+        "url": "../views/info_individual/cafetera.ejs"
+    },
+    {
+        "id": 2,
+        "nombre": "Computadora",
+        "precio": 1500,
+        "imagen": "img-macbook-pro-2019.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Telefono",
+        "precio": 800,
+        "imagen": "img-samsung-galaxy-s10.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Televisor",
+        "precio": 1200,
+        "imagen": "img-tv-samsung-smart.jpg",
+        "url": ""
+    },
+    {
+        "id": 5,
+        "nombre": "Refrigerador",
+        "precio": 2000,
+        "imagen": "img-refrigerador.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Lavadora",
+        "precio": 900,
+        "imagen": "img-lavadora.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Microondas",
+        "precio": 300,
+        "imagen": "img-horno-microondas-samsung-silver-23lts.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Aspiradora",
+        "precio": 400,
+        "imagen": "img-aspiradora.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Rolex",
+        "precio": 10000,
+        "imagen": "img-rolex.jpg"
+    }
+]

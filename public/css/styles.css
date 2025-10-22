@@ -1,0 +1,370 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------- CONFIGURACIÓN GENERAL ---------- */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF; /* Fondo blanco principal */
+    color: #1E3A8A; /* Azul profundo para texto */
+}
+
+/* ---------- HEADER ---------- */
+.main-header {
+    background-color: #1E3A8A; /* Azul profundo */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.2);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #60A5FA; /* Azul claro al pasar el mouse */
+}
+
+/* ---------- BANNER ---------- */
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ---------- MAIN ---------- */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+/* ---------- SECCIÓN “Última Visita” ---------- */
+.last-visit {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-top: 5px solid #1E3A8A;
+    margin-bottom: 30px;
+}
+
+.last-visit h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E3A8A;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.last-visit .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.last-visit article {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.last-visit article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(30, 58, 138, 0.3);
+}
+
+.last-visit .product_img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.last-visit .main-article {
+    padding: 15px;
+    text-align: center;
+}
+
+.last-visit .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E3A8A;
+    margin-bottom: 10px;
+}
+
+.last-visit .discount {
+    color: #2563EB;
+    font-weight: bold;
+}
+
+.last-visit .description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* ---------- SECCIÓN “Ofertas” ---------- */
+.offers {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-top: 5px solid #1E3A8A;
+    margin-bottom: 30px;
+}
+
+.offers h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1E3A8A;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.offers .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.offers article {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offers article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(30, 58, 138, 0.3);
+}
+
+.offers .product_img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.offers .main-article {
+    padding: 15px;
+    text-align: center;
+}
+
+.offers .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E3A8A;
+    margin-bottom: 10px;
+}
+
+.offers .discount {
+    color: #2563EB;
+    font-weight: bold;
+}
+
+.offers .description {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #1E3A8A;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(30, 58, 138, 0.2);
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #BFDBFE;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #E0E7FF;
+}
+
+/* ---------- FORMULARIOS ---------- */
+.registration-form,
+.login-form {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.registration-form h2,
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1E3A8A;
+    text-align: center;
+}
+
+form,
+.login-form-action {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.15);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label,
+.login-form-action label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1E3A8A;
+}
+
+form input,
+.login-form-action input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #93C5FD;
+    border-radius: 5px;
+    background-color: #F0F9FF;
+}
+
+form button,
+.login-form-action button {
+    background-color: #1E3A8A;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover,
+.login-form-action button:hover {
+    background-color: #2563EB;
+}
+
+.message.success {
+    color: #1E3A8A;
+}
+
+.message.error {
+    color: #E11D48;
+}
+
+.login-form-action a {
+    color: #1E3A8A;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.login-form-action a:hover {
+    text-decoration: underline;
+    color: #2563EB;
+}
+
+/* ---------- ESTILOS RESPONSIVOS ---------- */
+
+/* --- Móviles (pantallas pequeñas) --- */
+@media (max-width: 480px) {
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .last-visit .products,
+    .offers .products {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .last-visit article,
+    .offers article {
+        width: 90%;
+    }
+
+    form,
+    .login-form-action {
+        width: 90%;
+    }
+}
+
+/* --- Tablets (pantallas medianas) --- */
+@media (min-width: 481px) and (max-width: 768px) {
+    main {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .last-visit .products,
+    .offers .products {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .last-visit article,
+    .offers article {
+        width: 45%;
+    }
+}

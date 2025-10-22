@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "nombre": "La Budineta",
+    "apellido": "Panadería",
+    "edad": "",
+    "email": "benja@gmail.com"
+  },
+  {
+    "id": 2,
+    "nombre": "Kiosco Esteban",
+    "apellido": "Kiosco",
+    "edad": "",
+    "email": "esteban@gmail.com"
+  },
+  {
+    "id": 3,
+    "nombre": "MVP Store",
+    "apellido": "Tienda de videojuegos",
+    "edad": "",
+    "email": "mvpstore@gmail.com"
+  },
+  {
+    "id": 4,
+    "nombre": "El 24 de la 25",
+    "apellido": "Kiosco",
+    "edad": "",
+    "email": "el24dela25@gmail.com"
+  },
+  {
+    "id": 5,
+    "nombre": "Tecnolab",
+    "apellido": "Academia de robotica y programación",
+    "edad": "",
+    "email": "tecnolab.vm@gmail.comx"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vasques",
+    "edad": "17",
+    "email": "Benja@gmail.com"
+  }
+]

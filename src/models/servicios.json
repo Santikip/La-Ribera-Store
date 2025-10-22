@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "imagen": "gasista.jpg",
+        "profesion": "Gasista",
+        "nombre": "Juan",
+        "ubicacion": "La Ribera",
+        "telefono": "2657 000000"
+    },
+    {
+        "id": 2,
+        "imagen":  "electricista.jpeg",
+        "profesion": "Electricista",
+        "nombre": "Pablo",
+        "ubicacion": "La Ribera",
+        "telefono": "2657 111111"
+    },
+    {
+        "id": 3,
+        "imagen": "plomero.jpg",
+        "profesion": "Plomero",
+        "nombre": "Carlos",
+        "ubicacion": "La Ribera",
+        "telefono": "2657 202020"
+    }
+]

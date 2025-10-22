@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('./partials/head.ejs') %>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css"> -->
+    <title>La Ribera Store</title>
+</head>
+<body>
+    <%- include ('./partials/header.ejs') %>
+<!--  Incluimos el header de manera dinamica, usando .ejs  -->
+    <!-- <header class="main-header">
+        <div class="logo">Mi e-commerce</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/productos">Productos</a></li>
+                <li><a href="/registrarse">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header> -->
+    
+    <section class="registration-form">
+        <h2>Productos y Servicios</h2>
+        <form action="/agregar" method="post"> <br />
+            <label for="pys">P&S</label>
+            <input type="cheackbox" id="pys" name="pys" required /> <br /> <br />
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required /> <br /> <br />
+
+            <label for="imagen">Imagen</label>
+            <input type="img" id="imagen" name="imagen" required /> <br /> <br />
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <%- include ('./partials/footer.ejs') %>
+    <!-- Incluimos el footer de manera dinamica, usando .ejs
+    <footer></footer> -->
+</body>
+</html>

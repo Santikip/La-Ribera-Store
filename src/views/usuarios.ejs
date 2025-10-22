@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('./partials/head.ejs') %>
+
+    <title>La Ribera Store</title>
+</head>
+<body style="background-color: rgb(133, 214, 122);">
+    
+    <%- include('./partials/header.ejs') %>
+
+        <main>
+        <section class="last-visit">
+            <h3>Usuarios registrados</h3>
+            <div class="products">
+                <% usuarios.forEach((elemento,index)=> {  %>
+                <article>
+                    <!-- <img src="img/<%= elemento.imagen %>" alt="Cafetera" class="product_img"> -->
+                    <div class="main-article">
+                        <i class="fas fa-truck"></i>
+                        <p class="price"><%= elemento.nombre %></p>
+                        <p class="description"><%= elemento.apellido %></p>
+                        <h4 class="description"><%= elemento.edad %></h4>
+                        <h4 class="description"><%= elemento.email %></h4>
+                    </div>
+                </article>
+                <%  });  %>
+                
+            </div>
+        </section>
+
+    </main>
+    <%- include('./partials/footer.ejs') %>
+</body>
+</html>

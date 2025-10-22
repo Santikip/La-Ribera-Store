@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "cafetera",
+        "precio": 2000,
+        "imagen":"img-cafetera-moulinex.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "macbook",
+        "precio": 1500,
+        "imagen":"img-macbook-pro-2019"
+    },
+    {
+        "id": 3,
+        "nombre": "batidora",
+        "precio": 1800,
+        "imagen":"img-samsung-galaxy-s10.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "qsyo",
+        "precio": 2000,
+        "imagen":"img-cafetera-moulinex.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "samsung-smart",
+        "precio": 2000,
+        "imagen":"img-cafetera-moulinex.jpg"
+    }
+]

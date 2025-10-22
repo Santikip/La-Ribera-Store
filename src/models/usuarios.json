@@ -1,0 +1,129 @@
+[
+  {
+    "nombre": "Marti",
+    "apellido": "Moyano",
+    "edad": "17",
+    "email": "marti@gamil.com"
+  },
+  {
+    "nombre": "Luci",
+    "apellido": ".",
+    "edad": ".",
+    "email": "cnwin@CKJEWMC"
+  },
+  {
+    "nombre": "Andres",
+    "apellido": "Silva",
+    "edad": ".",
+    "email": "vj@fyufuy"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vasques",
+    "edad": "17",
+    "email": "cnwin@CKJEWMC"
+  },
+  {
+    "nombre": "Braian",
+    "apellido": "Nievas",
+    "edad": "19",
+    "email": "braian@gmail.com"
+  },
+  {
+    "nombre": "aaaa",
+    "apellido": "bbbb",
+    "edad": "20",
+    "email": "sasd@ndnfoi"
+  },
+  {
+    "nombre": "aaaa",
+    "apellido": "bbbb",
+    "edad": "20",
+    "email": "sasd@ndnfoi",
+    "password": "12345"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vasques",
+    "edad": "17",
+    "email": "1234@5678",
+    "password": "12345678"
+  },
+  {
+    "nombre": "Pepe",
+    "apellido": "Pablo",
+    "edad": "34",
+    "email": "pepe@pablo",
+    "password": "12345678"
+  },
+  {
+    "nombre": "Andres G",
+    "apellido": "Silva",
+    "edad": ".",
+    "email": "andres@silva",
+    "password": "andres"
+  },
+  {
+    "nombre": "Carlitos ",
+    "apellido": "Becerra",
+    "edad": "18",
+    "email": "santib@gmail.com",
+    "password": "12345678"
+  },
+  {
+    "nombre": "Santi",
+    "apellido": "Fornes",
+    "edad": "18",
+    "email": "santi@fornes",
+    "password": "123456"
+  },
+  {
+    "nombre": "andres",
+    "apellido": "silva",
+    "edad": "45",
+    "email": "andres@gmail.com",
+    "password": "123"
+  },
+  {
+    "nombre": "Pepe",
+    "apellido": ".",
+    "edad": ".",
+    "email": "123@456",
+    "password": "123456"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vas",
+    "edad": "17",
+    "email": "ezequiel@gmail.com",
+    "password": "123456"
+  },
+  {
+    "nombre": "Benja",
+    "apellido": "Vaasques",
+    "edad": "18",
+    "email": "benjaaa@gmail.com",
+    "password": "12345"
+  },
+  {
+    "nombre": "Santiago",
+    "apellido": "Ponce",
+    "edad": "18",
+    "email": "poncesanti17@gmail.com",
+    "password": "1234567"
+  },
+  {
+    "nombre": "Santiago",
+    "apellido": "Ponce",
+    "edad": "18",
+    "email": "poncesanti17@gmail.com",
+    "password": "HOLAJAJA"
+  },
+  {
+    "nombre": "Santiago",
+    "apellido": "Ponce",
+    "edad": "18",
+    "email": "poncesanti17@gmail.com",
+    "password": "1234567"
+  }
+]
