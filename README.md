@@ -1,37 +1,38 @@
-# Mi primer servidor en Javascript
+# 💻 Mi Primera Aplicación en Javascript
 
-Este es un servidor local hecho en **Javascript** con un **sistema de ruteo** y la **estructura MVC** *(Modelo - Vista - Controlador)*
+Este proyecto es un servidor local desarrollado en **Javascript**. Se caracteriza por implementar un **sistema de ruteo claro** y seguir la **estructura de diseño M-V-C** *(Modelo - Vista - Controlador)* para una organización robusta del código.
 
-## Tecnologías usadas
+---
 
-- [Node.js](https://nodejs.org/es)
-- [Express](https://expressjs.com/)
-- [Nodemon](https://www.npmjs.com/package/nodemon)
+## 🛠️ Herramientas Utilizadas
 
-## Instalación
+Para construir y operar este servidor, se han empleado las siguientes tecnologías:
 
-[Descargar Node.js](https://nodejs.org/es/download) desde su pagina oficial si usa Windows o Mac, si usa Linux descarga [Nodesource](https://downloads.nodesource.com/)
+* [Node.js](https://nodejs.org/es): Entorno de ejecución de Javascript en el servidor.
+* [Express](https://expressjs.com/): Framework web que facilita la creación de rutas y la gestión de peticiones HTTP.
+* [Nodemon](https://www.npmjs.com/package/nodemon): Herramienta que reinicia automáticamente el servidor al detectar cambios en los archivos fuente, optimizando el desarrollo.
 
-Una vez instalado el código fuente, en la consola de Git Bash escribe el comando
+---
 
-```
-npm ci
-```
+## ⚙️ Proceso de Instalación
 
-para instalar las dependencias necesarias
+Sigue estos pasos para poner el proyecto en funcionamiento en tu máquina local:
 
-## Iniciar el servidor
+1.  **Instalar Node.js:** Asegúrate de tener Node.js instalado.
+    * **Windows / Mac:** Descarga el instalador desde su [página oficial](https://nodejs.org/es/download).
+    * **Linux:** Utiliza [Nodesource](https://downloads.nodesource.com/) para su instalación.
 
-Una vez instaladas las dependencias, rara iniciar el servidor usa el comando
+2.  **Instalar Dependencias:** Abre la consola en el directorio raíz del proyecto y ejecuta el siguiente comando para descargar todas las librerías necesarias:
 
-```
+    ```bash
+    npm ci
+    ```
+
+---
+
+## 🚀 Iniciar el Servidor
+
+Una vez que las dependencias estén instaladas, puedes arrancar la aplicación con la siguiente instrucción:
+
+```bash
 npm run dev
-```
-
-## Ver desde el navegador
-
-Debes ir a **localhost:3000** en tu navegador como si fuera una URL normal, la página debería aparecerte así:
-
-![image](https://github.com/user-attachments/assets/2e753ecc-bfb0-44ba-9a6c-5260e908eed9)
-
-*(Cosas como el puerto son configurables dentro del código)*
